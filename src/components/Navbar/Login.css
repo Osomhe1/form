@@ -1,0 +1,96 @@
+.form{
+    justify-content: center;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    /* height: 90vh; */
+    margin: 0;
+    padding: 0;
+}
+.form:hover{
+    transition: all 0.4s ease-in-out;
+    box-sizing: border-box;
+    box-shadow: 10px 10px #55bbaa;
+}
+
+input:hover{
+    transition: all 0.4s ease-in-out;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #999;
+}
+
+h2{
+    color: #aaa;
+    font-size: 30px;
+}
+
+label{
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+input{
+    font-size: 30px;
+    border-radius: 1px solid #fff;
+    box-shadow: #222;
+}
+
+button{
+    color:tomato;
+    padding: 20px;
+    background-color: #777;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    color: thistle;
+    background-color: teal;
+    transition: all 0.5s ease-in-out ;
+    justify-content: center;
+   align-items: center;
+   box-shadow: 10px 5px #666;
+}
+
+/* input:invalid {
+    border: 2px solid #c15f5f
+} */
+
+/* 
+input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 5px solid #ddffdd;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  } */
+
+  input:invalid{
+      border: 2px solid red;
+  }
+
+  input:valid{
+      border: 2px solid greenyellow;
+  }
+/* 
+  input:required{
+      border: 1px solid red;
+  } */
